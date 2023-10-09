@@ -1,0 +1,79 @@
+ body{ 
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+    background-image: url(./imgs/pxfuel\ \(2\).jpg );
+   background-repeat:no-repeat;
+    background-size:auto;
+     
+ }
+ 
+ 
+ /* .navbar {
+
+   margin: 0px;
+   height: 5em;
+   width: 100%;
+   background: black;
+   
+} */
+/* ul{
+   list-style: none;
+   
+   padding-top: 30px;
+   justify-content: space-around      ;
+   display: flex; 
+    color:white;
+    margin: 0;
+ } */
+
+
+ .container{
+   background-color: rgba(255, 255, 255, 0.178);
+   height:500px;
+	width:  300px;
+	margin:10px auto;
+	padding: 20px 20px 20px 20px;
+   text-align: center;
+    
+ 
+ }
+
+ h3{ 
+   letter-spacing: 5px;
+   margin-top:60px;
+   font-size: 40px;
+   color:#ffff;
+   font-family: 'Caveat', cursive;
+   font-family: 'Paytone One', sans-serif;
+ }
+
+input	{
+   color: rgb(0, 0, 0);
+   gap: 20px;
+   border-style: none;
+   border-radius: 40px     ;
+   padding: 30px;
+   background-color: rgba(255, 255, 255, 0.957);
+}
+   input:hover{
+      padding-right: 50px;
+      padding-left: 30px;
+      background-color: rgb(255, 255, 255);
+      transition:1s;
+   } 
+
+.btn {
+   cursor: pointer;
+   margin-top: 15px;
+   border-style: none;
+   border-radius: 40px;
+   padding: 20px;
+}
+
+.btn:hover{
+   padding-right: 30px;
+   padding-left: 30px;
+   background-color: rgb(60, 0, 255);
+   transition:1s;
+ }
